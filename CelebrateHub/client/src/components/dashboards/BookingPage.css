@@ -1,0 +1,244 @@
+.booking-page-container-wrapper {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #6a5af9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #5a4ad8;
+}
+
+.booking-page-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+.booking-details-column, .booking-form-column {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.booking-details-column h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.service-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.service-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.service-meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.service-description {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.service-features h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.service-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.booking-form-column h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.booking-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.booking-form label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.submit-booking-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #6a5af9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-booking-button:hover {
+  background-color: #5a4ad8;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.calendar-header {
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.calendar-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.calendar-day.empty {
+  cursor: default;
+}
+
+.calendar-day.available {
+  background-color: #e0f7fa;
+  color: #00796b;
+}
+
+.calendar-day.available:hover {
+  background-color: #b2ebf2;
+}
+
+.calendar-day.selected {
+  background-color: #6a5af9;
+  color: white;
+  font-weight: 600;
+}
+
+.selected-date-info {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+}
+
+.payment-details {
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+}
+
+.payment-details h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row .form-group {
+  width: 50%;
+}
+
+.time-slots-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.time-slot-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.time-slot-button:hover {
+  background-color: #e0e0e0;
+}
+
+.time-slot-button.selected {
+  background-color: #6a5af9;
+  color: white;
+  border-color: #6a5af9;
+}

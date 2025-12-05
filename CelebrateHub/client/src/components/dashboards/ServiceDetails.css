@@ -1,0 +1,161 @@
+.service-details-container {
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  
+  .service-header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .service-main-image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .service-header-info {
+    flex: 1;
+  }
+  
+  .service-meta {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    color: #555;
+  }
+  
+  .service-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .service-price-book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .price-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+
+  .price-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-per-person {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+.book-now-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.report-btn {
+  background-color: transparent;
+  color: #dc3545;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+}
+  
+  .service-gallery, .customer-reviews {
+    margin-top: 2rem;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .gallery-photo {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .review-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .review-author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .review-content {
+    flex: 1;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .review-rating {
+    display: flex;
+  }
+  
+  .review-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .review-photo {
+    width: 100%;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  .provider-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .provider-link:hover {
+    text-decoration: underline;
+  }

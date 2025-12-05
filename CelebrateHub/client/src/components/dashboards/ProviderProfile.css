@@ -1,0 +1,185 @@
+.provider-profile-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.provider-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.provider-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+  border: 4px solid #eee;
+}
+
+.provider-info h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.provider-meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: #777;
+  font-size: 1rem;
+}
+
+.provider-meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.average-rating {
+  font-weight: 600;
+  color: #333;
+}
+
+.back-button {
+  background-color: #8e2de2;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.back-button:hover {
+  background-color: #6a1b9a;
+}
+
+.provider-name {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-info {
+  padding: 1.5rem;
+}
+
+.service-info h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.service-type {
+  background-color: #e8eaf6;
+  color: #3f51b5;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.service-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.service-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8e2de2;
+}
+
+.customer-reviews {
+  margin-top: 4rem;
+}
+
+.customer-reviews h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.review-card {
+  display: flex;
+  gap: 1.5rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.review-author-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-content strong {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.review-rating {
+  margin: 0.5rem 0;
+}
+
+.review-content p {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.6;
+}

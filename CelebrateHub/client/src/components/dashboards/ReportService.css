@@ -1,0 +1,80 @@
+.report-service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f4f7fc;
+  padding: 2rem;
+}
+
+.report-form-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.report-form-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.report-form-card .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.report-form-card label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.report-form-card select,
+.report-form-card textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.report-form-card textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.report-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.cancel-btn, .submit-report-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.cancel-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.submit-report-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.submit-report-btn:hover {
+  background-color: #c82333;
+}

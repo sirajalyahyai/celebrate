@@ -1,0 +1,40 @@
+.add-service-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.add-service-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.add-service-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-service-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.add-service-form input[type="text"],
+.add-service-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.add-service-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.add-service-form .action-btn {
+  align-self: flex-start;
+}

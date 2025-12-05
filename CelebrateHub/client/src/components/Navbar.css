@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.navbar-logo {
+  height: 80px;
+  width: 250px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-user-profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.navbar-user-name {
+  margin-right: 1rem;
+}
+
+.navbar-logout {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+}
